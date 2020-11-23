@@ -1,6 +1,6 @@
 package scenario2;
 
-public class Printer implements SmartPrinter {
+public class AllInPrinter implements SmartPrinter {
 
     @Override
     public void print() {
@@ -9,11 +9,11 @@ public class Printer implements SmartPrinter {
 
     @Override
     public void fax() {
-        throw new UnsupportedOperationException();
+        // fax
     }
 
     @Override
     public void scan() {
-        throw new UnsupportedOperationException();
+        // scan
     }
 }
