@@ -6,14 +6,4 @@ public class Printer implements SmartPrinter {
     public void print() {
         // print
     }
-
-    @Override
-    public void fax() {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public void scan() {
-        throw new UnsupportedOperationException();
-    }
 }
