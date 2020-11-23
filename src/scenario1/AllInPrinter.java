@@ -1,6 +1,6 @@
 package scenario1;
 
-public class AllInPrinter implements SmartPrinter{
+public class AllInPrinter implements Scanner, Printer, Fax {
 
     @Override
     public void print() {
